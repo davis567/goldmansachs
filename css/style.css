@@ -1,0 +1,197 @@
+body{
+	margin:0px;
+	min-width: 300px;
+}
+.navbrand{
+	width: 45px;
+	padding: 15px;
+}
+.nav-group{
+	list-style-type: none;
+	padding: 0px;
+}
+nav{
+	box-shadow: 0px 3px 5px 0px grey;
+}
+.nav-item:hover{
+	color: grey;
+	background: white;
+}
+.d-none{
+	visibility: hidden;
+	padding: 25px;
+}
+.btn{
+	background: white;
+	border: solid 1px #7399c6;
+	width: 100px;
+	padding: 0px;
+	height: 50px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 7px;
+	color:#7399c6;
+}
+.btn:hover{
+	color: white;
+	background:#7399c6;
+}
+#first-section{
+	background: url("../img/hero-image.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+.first-section-inner{
+	text-align: center;
+	font-size: 1.5em;
+}
+.sachs{
+	font-size: 0.65em;
+}
+.text-make{
+	/*font-size: 1.5em;*/
+	margin-top: 0px;
+}
+#second-section{
+	padding: 10px;
+}
+#program{
+	background:#131c40;
+}
+#events{
+	background: #060b1e;
+}
+.head1{
+	color: white;
+	text-align: center;
+	font-size: 1.9em;
+	padding: 30px;
+}
+.head2{
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+	font-size: medium;
+	margin-bottom: 15px;
+}
+.button1{
+	border: solid 1px #22A2FF;
+	width: 50%;
+	text-align: center;
+	margin-left: 90px;
+	height: 35px;
+	background: #131c40;
+	color: #22A2FF;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+.button1:hover{
+   background: #22A2FF;
+   color: white;
+}
+.find1{
+	color: white;
+	text-align: center;
+	font-size: 1.9em;
+	padding: 30px;
+}
+.find2{
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+	font-size: medium;
+	margin-bottom: 15px;
+}
+.button2{
+	border: solid 1px #22A2FF;
+	width: 50%;
+	text-align: center;
+	margin-left: 90px;
+	height: 35px;
+	background: #060b1e;
+	color: #22a2ff;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+.button2:hover{
+   background: #22A2FF;
+   color: white;
+}
+
+@media(min-width: 500px){
+	nav{
+		display: flex;
+		font-size: 1.2em;
+	}
+	.navigation{
+		display: flex;
+	}
+	.nav-group{
+		display: flex;
+		margin-left: 20px;
+		margin-right: auto;
+	}
+	.nav-item{
+		margin-right: 20px;
+	}
+	.d-none{
+		display: unset;
+		margin-left: 20px;
+	}
+	.btn{
+		margin-left: 20px;
+		width: 200px;
+	}
+	#first-section{
+		background-size: cover;
+		width: 100%;
+		height: 430px;
+	}
+	.first-section-inner{
+		margin-top: -300px;
+	}
+	#second-section {
+		display: flex;
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 115px;
+	}
+	#program, #events{
+		box-sizing: border-box;
+		padding: 4% 4% 0% 4%;
+		margin-top: -40px
+	}
+	.head1, .find1{
+		margin-top: 0px;
+	}
+	.button1, .button2{
+		width: 300px;
+		height: 40px;
+		margin-left: 25px;
+	}
+	.first-section-inner{
+		color: white;
+	}
+	.head2, .find2{
+     margin-bottom: 30px;
+}
+	.text-make{
+		font-size: 2.5em;
+	}
+	.sachs{
+
+	}
+}
+
+
+
+
+
+
+
+
